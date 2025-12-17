@@ -1,5 +1,4 @@
-Repositori ini berisi proyek analisis sentimen terhadap opini pengguna mengenai layanan PayLater menggunakan algoritma BiLSTM (Bidirectional LSTM) dengan embedding FastText bahasa Indonesia.
-Selain model dan tokenizer, repositori ini juga menyediakan aplikasi Streamlit untuk melakukan prediksi sentimen secara interaktif.
+Repositori ini berisi proyek analisis sentimen terhadap opini pengguna mengenai layanan PayLater menggunakan algoritma BiLSTM (Bidirectional LSTM) dengan embedding FastText bahasa Indonesia. Selain model dan tokenizer, repositori ini juga menyediakan aplikasi Streamlit untuk melakukan prediksi sentimen secara interaktif.
 
 streamlit/
 │
@@ -34,11 +33,9 @@ matplotlib
 
 2️⃣ Jalankan aplikasi
 streamlit run streamlit/app.py
-
-
 Aplikasi akan berjalan otomatis di browser pada alamat:
-
 http://localhost:8501
+
 
 📦 Isi File Penting
 File	Fungsi
@@ -53,43 +50,31 @@ final_model_bilstm.py	Script model alternatif
 Model deep learning menggunakan:
 
 Embedding FastText (pretrained)
-
 Bidirectional LSTM
-
 Dense softmax
-
 Adam optimizer
 
 Prediksi sentimen antara:
-
 Positif
-
 Netral
-
 Negatif
 
-📊 Dataset
 
+📊 Dataset
 Dataset bersumber dari tweet pengguna Indonesia yang membahas fitur PayLater.
 Dataset telah melalui proses:
-
 crawling
-
 preprocessing
-
 pelabelan manual
-
 pembagian train/test
-
 Dataset lengkap tidak disertakan demi privasi.
 
-✨ Rencana Pengembangan
 
+✨ Rencana Pengembangan
 📌 Tambahkan visualisasi performa model dalam Streamlit
 📌 Tambahkan fitur upload CSV untuk analisis banyak data
 📌 Bandingkan BiLSTM dengan IndoBERT untuk performa lanjutan
 
 👤 Author
-
 Agil Faturrahman
 📩 Terbuka untuk diskusi tentang NLP, deep learning, dan sentiment analysis
