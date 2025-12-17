@@ -21,8 +21,7 @@ streamlit/
 ├── final_model_bilstm+fasttext.py # Script training model + FastText
 └── final_model_bilstm.py # Script training BiLSTM alternatif
 
-yaml
-Salin kode
+
 
 ---
 
@@ -33,8 +32,7 @@ Salin kode
 pip install -r requirements.txt
 Jika belum memiliki requirements.txt, gunakan:
 
-nginx
-Salin kode
+
 streamlit
 tensorflow
 numpy
@@ -57,12 +55,10 @@ arduino
 Salin kode
 "Fitur paylaternya bener-bener membantu di saat mendesak!"
 Output:
-yaml
-Salin kode
+
 Sentimen : Positif ⭐⭐⭐⭐⭐
 🧠 Arsitektur Model
-java
-Salin kode
+
 FastText Embedding
         ↓
 Bi-directional LSTM
@@ -97,8 +93,7 @@ testdata1.csv	Dataset uji
 testdata2.csv	Dataset uji tambahan
 
 📈 Visualisasi Model (Konsep Akurasi)
-yaml
-Salin kode
+
 Akurasi Model: ████████████████░░ 87%
 Loss Model   : ████████░░░░░░░░░░ 32%
 📌 (Notasi batang bersifat ilustrasi)
@@ -119,6 +114,4 @@ Jika project ini bermanfaat:
 🔁 Share repo ini
 🤝 Kolaborasi pengembangan
 
-nginx
-Salin kode
 Thank you! 💛
